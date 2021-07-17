@@ -1,0 +1,25 @@
+/*
+ * java.net.ServetSocket class is used by server applications to obtain a port
+ * and listen for client requests. Server Socket is basically the program that
+ * is suitbale for maintaining on emachine as a server. That means , this machin
+ * emay be connected with many clients those may be either in same system or
+ * remote system.
+ * 
+ * ServerSocket class has following constructors: public ServerSocket(int port)
+ * throws IOException public ServerSocket(int port, int backlog) throws
+ * IOException public SocketSocket(int port, int backlog,InetAddress address)
+ * throws IOException public ServerSocket() throws IOException
+ * 
+ * Server socket class can be used to create a server. This object is used to
+ * establish communication with the clients and it has the following methods:
+ * 
+ * public int getLocalPort(): It connect specied server to the specific port.if
+ * not exist:throws exception;if exist:client is connected to server
+ * 
+ * public Socket accept() throws IO Exception: accepts connection to another socket(client)
+ * 
+ * public void setSoTimeout(int timeout): Connects to the specified host and port, creating
+ * 
+ * public void bind(SocketAddress host, int backlog): sets connection for a certain time
+ *  
+ */
