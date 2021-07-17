@@ -1,0 +1,40 @@
+/*
+A socket is simply an endpoint for communications between the machines.
+The socket class can be used to create a socket.
+
+Socket represents only client machine
+It has the following constructors:
+
+public Socket(String host, int port) throws UnknownHostException, IOException
+
+public Socket(InetAddress host, int port) throws IO Exception
+
+public Socket(String host, int port, InetAddress, localAddress, int localPort) throws IOException
+
+public Socket(InetAddress host, int port, InetAddress, localAddress, int localPort) throws IOException
+
+public Socket():create unconnected socket.Use connect() method to connect this socket to a server.
+
+Following are the methods present in the Socket class:
+
+public void connect(SocketAddresshost, int timeout) throws IOException
+connects the socket to specified host.
+
+public InetAddress getInetAddress():returns address of the connected computer
+
+public int getport():returns port of another remote machine
+
+public int getLocalPort():returns port of another local machine
+
+public SocketAddress getRemoteSocketAddress()
+
+public InputStream getInputStream() throws IOException
+:returns input stream of socket; this input stream is connected to output stream of remote socket
+
+public OutputStream getOutputStream() throws IoException
+:returns output stream of socket; this output stream is connected to input stream of remote socket
+
+public void close(): closes socket
+
+
+*/
